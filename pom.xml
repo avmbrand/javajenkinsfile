@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>hello</finalName>
+    <finalName>jenkinshello</finalName>
   </build>
 </project>
