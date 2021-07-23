@@ -4,17 +4,23 @@ pipeline
 
   stages{
     stage('build'){
+      steps{
       sh 
       ''''
         mvn install
       ''''
+      
+      }
+      
     }
     stage('deploy'){
-      sh
+      steps{
+        sh
       ''''
         cp target/*.war ../../
       ''''
-    }
+      }
+      }
   
   }
 
